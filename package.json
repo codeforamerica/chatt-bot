@@ -21,6 +21,7 @@
     "wham": "^0.2.4",
     "hipchatter": "^0.1.2",
     "bluebird": "^1.2.1",
-    "restify": "^2.7.0"
+    "restify": "^2.7.0",
+    "pr-request": "^0.1.1"
   }
 }
