@@ -12,7 +12,9 @@ server.use(restify.queryParser())
 server.use(restify.bodyParser())
 
 server.get('/keepalive', function (req, res, next) {
-  res.send(Date.now())
+  console.log('pong')
+  res.send(Date.now()+'')
+  next()
 })
 
 function keepalive() {
@@ -22,6 +24,7 @@ function keepalive() {
 server.get('/webhooks/trello', function (req, res, next) {
   console.log('yup')
   res.send('got it')
+  next()
 })
 
 server.head('/webhooks/trello', function (req, res, next) {
