@@ -1,4 +1,4 @@
-# chatt-bott
+# chatt-bot
 *the name is very clever*
 
 ## Installation
