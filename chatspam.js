@@ -8,6 +8,7 @@ function spam(msg) {
 
     chat.notify('bot-test', {
       message: msg,
+      color: 'green',
       token: process.env.HIPCHAT_TRELLO_ROOM
     }, function (e,r) {
       if (e) {
