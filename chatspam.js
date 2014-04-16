@@ -8,7 +8,7 @@ function spam(msg) {
 
     chat.notify('bot-test', {
       message: msg,
-      token: process.env.HIPCHAT_TRELLO_CHITCHATT
+      token: process.env.HIPCHAT_TRELLO_ROOM
     }, function (e,r) {
       if (e) {
         reject(new Error(r))

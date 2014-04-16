@@ -1,5 +1,5 @@
 {
-  "name": "chat-spam",
+  "name": "chatt-bot",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/chitchatt/chat-spam.git"
+    "url": "git://github.com/codeforamerica/chatt-bot.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chitchatt/chat-spam/issues"
+    "url": "https://github.com/codeforamerica/chatt-bot/issues"
   },
-  "homepage": "https://github.com/chitchatt/chat-spam",
+  "homepage": "https://github.com/codeforamerica/chatt-bot",
   "dependencies": {
     "node-hipchat": "^0.4.5",
     "wham": "^0.2.4",
