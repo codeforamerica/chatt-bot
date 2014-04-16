@@ -8,7 +8,7 @@ function formatTrello(data) {
       action = 'created <a href="https://trello.com/c/' + data.action.data.card.shortLink + '">' + data.action.data.card.name + '</a>'
       break
     case 'commentCard':
-      action = 'commented on <a href="https://trello.com/c/' + data.action.data.card.shortLink + '">' + data.action.data.card.name + '</a>'
+      action = 'commented <i>' + data.action.data.text + '</i> on <a href="https://trello.com/c/' + data.action.data.card.shortLink + '">' + data.action.data.card.name + '</a>'
       break
     case 'updateCard':
       action = 'moved <a href="https://trello.com/c/' + data.action.data.card.shortLink + '">' + data.action.data.card.name + '</a> ' +
