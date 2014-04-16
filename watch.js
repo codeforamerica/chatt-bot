@@ -26,7 +26,7 @@ function setWatch() {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
-          description: 'Chattanooga Code for America',
+          description: 'chatbot',
           callbackURL: process.env.CHATBOT_URL + '/webhooks/trello',
           idModel: process.env.TRELLO_BOARD_ID
         }),
