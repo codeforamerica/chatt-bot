@@ -17,7 +17,7 @@ function setWatch() {
 
       console.log(JSON.stringify({
           description: 'chatbot',
-          callbackURL: process.env.URL + '/webhooks/trello',
+          callbackURL: process.env.CHATBOT_URL + '/webhooks/trello',
           idModel: process.env.TRELLO_BOARD_ID
         }))
 
@@ -27,7 +27,7 @@ function setWatch() {
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
           description: 'chatbot',
-          callbackURL: process.env.URL + '/webhooks/trello',
+          callbackURL: process.env.CHATBOT_URL + '/webhooks/trello',
           idModel: process.env.TRELLO_BOARD_ID
         }),
         json: true
