@@ -6,7 +6,7 @@ var Promise = require('bluebird')
 function spam(msg) {
   return new Promise(function (resolve, reject) {
 
-    chat.notify('bot-test', {
+    chat.notify('Chattanooga Code for America', {
       message: msg,
       color: 'green',
       token: process.env.HIPCHAT_TRELLO_ROOM
